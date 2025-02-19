@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Layout from "../../layout/Layout";
-import myContext from "../../context/MyContext";
+import myContext from "../../context/myContext";
 import { useContext } from "react";
 import Loader from "../../components/loader/Loader";
 import { useDispatch, useSelector } from "react-redux";

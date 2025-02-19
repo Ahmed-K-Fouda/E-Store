@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Layout from "../../layout/Layout";
 import camelCaseUser from "./../../helper/helper";
-import myContext from "../../context/MyContext";
+import myContext from "../../context/myContext";
 import Loader from "../../components/loader/Loader";
 
 function UserDashboard() {

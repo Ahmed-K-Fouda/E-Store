@@ -3,7 +3,7 @@ import Layout from "../../layout/Layout";
 import { useParams } from "react-router-dom";
 import { getDoc, doc } from "firebase/firestore";
 import { fireDB } from "../../firebase/FirebaseConfig";
-import myContext from "../../context/MyContext";
+import myContext from "../../context/myContext";
 import Loader from "../../components/loader/Loader";
 import { useDispatch, useSelector } from "react-redux";
 import {
